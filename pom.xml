@@ -36,8 +36,8 @@
   </prerequisites>
   <licenses>
     <license>
-      <name>Microsoft Public License</name>
-      <url>http://opensource.org/licenses/ms-pl.html</url>
+      <name>MIT License</name>
+      <url>http://opensource.org/licenses/mit-license.php</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
