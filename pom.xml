@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.jszip</groupId>
     <artifactId>jszip-parent</artifactId>
-    <version>10</version>
+    <version>11</version>
   </parent>
 
   <groupId>org.jszip.redist</groupId>
@@ -64,7 +64,7 @@
       <plugin>
         <groupId>org.jszip.maven</groupId>
         <artifactId>jszip-maven-plugin</artifactId>
-        <version>0.1-alpha-6</version>
+        <version>0.1-alpha-9</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>
@@ -98,7 +98,7 @@
               <goal>download-single</goal>
             </goals>
             <configuration>
-              <url>https://github.com/downloads/SteveSanderson/knockout</url>
+              <url>http://knockoutjs.com/downloads</url>
               <fromFile>knockout-${knockout-version}.debug.js</fromFile>
               <toFile>${project.build.outputDirectory}/knockout.js</toFile>
             </configuration>
